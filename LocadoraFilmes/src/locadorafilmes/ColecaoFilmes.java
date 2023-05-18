@@ -17,7 +17,7 @@ class ColecaoFilme implements Locadora {
         for (Filme filmes : Filme) {
             String status = filmes.Alugado() ? "foi alugado" : "não foi alugado";
             System.out.println(filmes.getNome() + status );
-        }
+        }   
     }
 }
 
@@ -27,3 +27,5 @@ class ColecaoFilme implements Locadora {
 //A Classe possui 1 método "addFilme" que adiciona um objeto do tipo Filme á uma lista.
 // também possui o método "alugar" que herda de Locadora e é sobescrito para que o método percorra a Lista de Filmes e devolva uma mensagem
 //indicando os filmes que foram alugados ou não.
+//ColecaoFilmes nunca é usado dentro do Menu ele deve receber os valores de entrada do usuario e inserir dentro da List<Filme> e em seguida
+//chamar o método alugar para que ele mostre a lista de filmes que foram alugados ou não essa é a parte mais chata mas que falta arrumar,

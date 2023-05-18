@@ -44,4 +44,5 @@ abstract class Filme {
 //a filmes. Possui um único método chamado playFilmes que deve se implemetado nas Classes "Filhas"
 //também foi implementado os métodos getter e setter para cada atributo permitindo obter e definir
 //seus valores. ta descrito nó código o que cada coisa faz...
+//acrescentar o atributo "tipoFilme" e encapsular com getter e setter.
 

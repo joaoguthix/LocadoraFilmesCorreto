@@ -13,7 +13,7 @@ public class Menu {
             scan.nextLine();    //recebe o Enter do usuário
 
             // para o filme de Ação
-            System.out.println("Digite um filme de comedia para ser adicionado: ");
+            System.out.println("Digite um filme de acao para ser adicionado: ");
             String film_action = scan.nextLine();
             System.out.println("Digite a duracao desse filme, em minutos: ");
             int duration_action = scan.nextInt();

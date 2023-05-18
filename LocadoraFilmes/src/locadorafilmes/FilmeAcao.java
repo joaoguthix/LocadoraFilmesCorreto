@@ -14,4 +14,6 @@ class FilmeAcao extends Filme {
 
 //está é uma classe concreta que herda da classe abstrata "filme"
 //ela define uma implementação especifica para filmes de ação
-//também sobescreve o método playFilme() que foi herdado de Filme.
+//também sobescreve o método playFilme() que foi herdado de Filme
+//esta classe deve ser removida e passada como um atributo dentro da Classe "Pai" Filme. o mesmo irá acontecer
+//para a Classe "Filha" FilmeComedia
